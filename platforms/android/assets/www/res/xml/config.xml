@@ -8,7 +8,7 @@
         PhoneGap Team
     </author>
     <feature name="http://api.phonegap.com/1.0/device" />
-	<!--<feature name="App">
+	<feature name="App">
         <param name="android-package" value="org.apache.cordova.App" />
     </feature>
     <feature name="PushPlugin">
@@ -19,7 +19,7 @@
     </feature>
     <feature name="Media">
         <param name="android-package" value="org.apache.cordova.media.AudioHandler" />
-    </feature>-->
+    </feature>
 	<gap:plugin name="org.apache.cordova.media.AudioHandler"/>
 	<gap:plugin name="org.apache.cordova.dialogs.Notification"/>
 	<gap:plugin name="com.plugin.gcm.PushPlugin"/>
