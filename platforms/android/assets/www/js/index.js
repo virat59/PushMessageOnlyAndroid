@@ -37,7 +37,7 @@ var app = {
 		alert('Device Ready');
         app.receivedEvent('deviceready');
         var pushNotification = window.plugins.pushNotification;
-        pushNotification.register(app.successHandler, app.errorHandler,{"senderID":"824841663931","ecb":"app.onNotificationGCM"});
+        pushNotification.register(app.successHandler, app.errorHandler,{"senderID":"74320630987","ecb":"app.onNotificationGCM"});
 
     },
     // Update DOM on a Received Event
@@ -53,7 +53,8 @@ var app = {
     },
     // result contains any message sent from the plugin call
     successHandler: function(result) {
-        alert('Callback Success! Result = '+result)
+		console.log('Callback Success! Result = '+result);
+        alert('Callback Success! Result = '+result);
     },
     errorHandler:function(error) {
         alert(' Error : ' + error);
