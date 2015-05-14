@@ -20,10 +20,8 @@
     <feature name="Media">
         <param name="android-package" value="org.apache.cordova.media.AudioHandler" />
     </feature>
-	<!--<gap:plugin name="org.apache.cordova.media.AudioHandler"/>-->
-	<gap:plugin name="org.apache.cordova.dialogs.Notification"/>
-	<gap:plugin name="com.plugin.gcm.PushPlugin"/>
-	<gap:plugin name="org.apache.cordova.App"/>
+	
+	<gap:plugin name="com.phonegap.plugins.pushplugin" version="2.4.0" />
 	
 	
     <preference name="permissions" value="none" />
